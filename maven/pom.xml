@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.vitormp</groupId>
-	<artifactId>git-release-example</artifactId>
-	<version>0.1.16-SNAPSHOT</version>
+	<artifactId>new-release-example</artifactId>
+	<version>0.1.14-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-		<name>git-release-example Maven Webapp</name>
+	<name>new-example Maven Webapp</name>
 
 	<scm>
 		<connection>scm:git:https://github.com/Rohit316/RohitGit.git</connection>
@@ -20,21 +20,21 @@
 		<!-- Publish versioned releases here -->
 		<repository>
 			<id>nexusreleases</id>
-			<name>releases</name>
-			<url>http://54.186.95.13:8081/nexus/content/repositories/nexusrelease</url>
+			<name>maven-releases</name>
+			<url>http://localhost:8081/repository/maven-releases/</url>
 		</repository>
 
 		<!-- Publish snapshots here -->
 		<snapshotRepository>
 			<id>nexussnapshots</id>
-			<name>snapshots</name>
-			<url>http://54.186.95.13:8081/nexus/content/repositories/nexussnapshots</url>
+			<name>maven-snapshots</name>
+			<url>http://localhost:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
 
 	<build>
-		<finalName>git-release-example</finalName>
+		<finalName>new-example</finalName>
 
 		<plugins>
 			<plugin>
@@ -53,11 +53,9 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	
 <properties>
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
-
 
 </project>
