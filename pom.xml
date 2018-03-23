@@ -4,7 +4,7 @@
 
 	<groupId>com.vitormp</groupId>
 	<artifactId>new-release-example</artifactId>
-	<version>0.1.14-SNAPSHOT</version>
+	<version>0.1.15-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>new-example Maven Webapp</name>
@@ -21,14 +21,14 @@
 		<repository>
 			<id>nexusreleases</id>
 			<name>maven-releases</name>
-			<url>http://34.215.34.142:8081/nexus/content/repositories/nexusreleases</url>
+			<url>http://52.89.126.29:8081/nexus/content/repositories/nexusreleases</url>
 		</repository>
 
 		<!-- Publish snapshots here -->
 		<snapshotRepository>
 			<id>nexussnapshots</id>
 			<name>maven-snapshots</name>
-			<url>http://34.215.34.142:8081/nexus/content/repositories/nexussnapshots</url>
+			<url>http://52.89.126.29:8081/nexus/content/repositories/nexussnapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 
