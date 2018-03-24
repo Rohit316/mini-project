@@ -1,0 +1,61 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.vitormp</groupId>
+	<artifactId>new-release-example</artifactId>
+	<version>0.1.15-SNAPSHOT</version>
+	<packaging>war</packaging>
+
+	<name>new-example Maven Webapp</name>
+
+	<scm>
+		<connection>scm:git:https://github.com/Rohit316/mini-project.git</connection>
+		<developerConnection>scm:git:https://github.com/Rohit316/mini-project.git</developerConnection>
+		<url>scm:git:https://github.com/Rohit316/RohitGit.git</url>
+          <tag>HEAD</tag>
+  </scm>
+
+	<distributionManagement>
+		<!-- Publish versioned releases here -->
+		<repository>
+			<id>nexusreleases</id>
+			<name>maven-releases</name>
+			<url>http://52.89.126.29:8081/nexus/content/repositories/nexusreleases</url>
+		</repository>
+
+		<!-- Publish snapshots here -->
+		<snapshotRepository>
+			<id>nexussnapshots</id>
+			<name>maven-snapshots</name>
+			<url>http://52.89.126.29:8081/nexus/content/repositories/nexussnapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+
+	<build>
+		<finalName>new-example</finalName>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.3</version>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+<properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
+
+</project>
