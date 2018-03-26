@@ -10,9 +10,9 @@
 	<name>new-example Maven Webapp</name>
 
 	<scm>
-		<connection>scm:git:https://github.com/Rohit316/RohitGit.git</connection>
-		<developerConnection>scm:git:https://github.com/Rohit316/RohitGit.git</developerConnection>
-		<url>scm:git:https://github.com/Rohit316/RohitGit.git</url>
+		<connection>scm:git:https://github.com/Rohit316/mini-project.git</connection>
+		<developerConnection>scm:git:https://github.com/Rohit316/mini-project.git</developerConnection>
+		<url>scm:git:https://github.com/Rohit316/mini-project.git</url>
           <tag>HEAD</tag>
   </scm>
 
@@ -21,14 +21,14 @@
 		<repository>
 			<id>nexusreleases</id>
 			<name>maven-releases</name>
-			<url>http://52.89.126.29:8081/nexus/content/repositories/nexusreleases</url>
+			<url>http://34.216.44.167:8081/nexus/content/repositories/nexusreleases</url>
 		</repository>
 
 		<!-- Publish snapshots here -->
 		<snapshotRepository>
 			<id>nexussnapshots</id>
 			<name>maven-snapshots</name>
-			<url>http://52.89.126.29:8081/nexus/content/repositories/nexussnapshots</url>
+			<url>http://34.216.44.167:8081/nexus/content/repositories/nexussnapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 
