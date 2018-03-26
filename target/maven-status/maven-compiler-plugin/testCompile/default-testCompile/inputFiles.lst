@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 /home/ubuntu/mini-project/src/test/java/com/vitormp/SimpleClassTest.java
+=======
+/var/lib/jenkins/workspace/maven-build/src/test/java/com/vitormp/SimpleClassTest.java
+>>>>>>> 38b799d9963b91b305983e758b7c11f8a05822eb

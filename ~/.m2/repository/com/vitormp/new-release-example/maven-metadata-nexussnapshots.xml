@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.vitormp</groupId>
+  <artifactId>new-release-example</artifactId>
+  <versioning>
+    <versions>
+      <version>0.1.14-SNAPSHOT</version>
+      <version>0.1.15-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180324190759</lastUpdated>
+  </versioning>
+</metadata>
