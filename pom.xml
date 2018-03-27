@@ -10,9 +10,15 @@
 	<name>new-example Maven Webapp</name>
 
 	<scm>
+<<<<<<< HEAD
 		<connection>scm:git:git@github.com:Rohit316/mini-project.git</connection>
 		<developerConnection>scm:git:git@github.com:Rohit316/mini-project.git</developerConnection>
 		<url>scm:git:git@github.com:Rohit316/mini-project.git</url>
+=======
+		<connection>scm:git:https://github.com/Rohit316/mini-project.git</connection>
+		<developerConnection>scm:git:https://github.com/Rohit316/mini-project.git</developerConnection>
+		<url>scm:git:https://github.com/Rohit316/mini-project.git</url>
+>>>>>>> f4c7df83a07d2290162146b1fdc3b5a34db1b784
           <tag>HEAD</tag>
   </scm>
 
